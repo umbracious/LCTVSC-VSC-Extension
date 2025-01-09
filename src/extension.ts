@@ -22,6 +22,14 @@ export function activate(context: vscode.ExtensionContext) {
 	});
 
 	context.subscriptions.push(disposable);
+
+	const handleUri = (uri: vscode.Uri) => {
+		vscode.commands.executeCommand('leetcode-to-vscode.sync');
+	};
+	
+	context.subscriptions.push(vscode.window.registerUriHandler({
+		handleUri,
+	}));
 }
 
 // This method is called when your extension is deactivated

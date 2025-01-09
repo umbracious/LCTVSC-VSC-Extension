@@ -1,6 +1,7 @@
 {
   "name": "leetcode-to-vscode",
   "displayName": "LeetCode to VSCode",
+  "publisher": "umbracious",
   "description": "Code LeetCode problems using VSCode",
   "version": "0.0.1",
   "engines": {
