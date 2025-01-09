@@ -42,5 +42,9 @@
   },
   "dependencies": {
     "tmp": "^0.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umbracious/LCTVSC-VSC-Extension.git"
+  } 
 }
